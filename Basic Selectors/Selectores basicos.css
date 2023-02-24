@@ -1,0 +1,43 @@
+h1 {
+    color: #00B;
+}
+
+#myDiv {
+    color: #00B;
+}
+
+
+span {
+    color: #0B0;
+}
+
+.box {
+    background-color: #00B;
+    color: #FFF;
+}
+
+
+.bold {
+    font-weight: bold;
+}
+
+span.bold {
+    font-weight: bold;
+}
+
+
+.red {
+    color: #B00;
+}
+
+span#mySpan {
+    color: #0B0;
+}
+
+div span {
+    font-size: 2em;
+}
+
+span a {
+    text-decoration: none;
+}

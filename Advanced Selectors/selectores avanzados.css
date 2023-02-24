@@ -1,0 +1,18 @@
+/* SELECTORES AVANZADOS */
+/* descendientes directos */
+
+/* Elementos contiguos */
+img.new + span {
+    font-weight: bold;
+}
+
+/* Primer elemento de ese tipo */
+.primer_item:first-child {
+    font-size: 2em;
+    color: blueviolet;
+}
+
+.letra1::first-letter {
+    font-size: 2em;
+    color: brown;
+}

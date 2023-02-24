@@ -1,0 +1,20 @@
+:link { 
+    text-decoration: none;
+}
+
+a:hover { /* Poner el cursor arribar pone de ese color el link */
+    text-decoration: none;
+    color: #95B3D7;
+}
+
+a:active { /* Cuando se pulsa el link se pone de ese color */
+           /* cuando se suelta vuelve al que estaba */
+    text-decoration: none;
+    color: black;
+}
+
+/* Se pueden anidar tambien como los selectores básicos */
+
+input:focus {
+    border: 2px solid #15df15;
+}

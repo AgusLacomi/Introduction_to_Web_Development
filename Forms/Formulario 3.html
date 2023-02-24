@@ -1,0 +1,51 @@
+<!-- https://www.youtube.com/watch?v=KORp-Qm_XY4 -->
+
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="ISO 8859-1">
+        <title>Formulario 3</title>
+    </head>
+    <body>
+
+        <form action="Formulario">
+            <h3> Elije una Contraseña </h3>
+            <fieldset>
+                <label for="Contraseña">Contraseña</label>
+                <br>
+                    <input type="password" name="contraseña" title="Entre 6 y 20 letras" required>
+
+                <br>
+
+                <label for="Repetir_Contraseña">Repita la contraseña</label>
+                <br>
+                    <input type="password" name="repetir_contraseña" required>
+
+                <br>
+
+                <label for="Aviso sobre la contraseña"><a href=""> Aviso sobre la contraseña </a></label>
+            </fieldset>
+
+            <h3>Pregunta para restablecer contraseña</h3>
+            <fieldset>
+                <label for="Pregunta">Pregunta</label>
+                <br>
+                    <input type="text" name="Pregunta" placeholder="Ejemplo: ¿Mi primer auto?" required>
+                
+                <br>
+
+                <label for="Respuesta">Respuesta</label>
+                <br>
+                    <input type="text" name="Respuesta" required>
+
+                <br>
+
+                <label for="Fecha de nacimiento">Fecha de nacimiento</label>
+                <br>
+                    <input type="date">
+            </fieldset>
+            <input type="submit" name="submit">
+        </form>
+    </body>
+</html>

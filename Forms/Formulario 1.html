@@ -1,0 +1,62 @@
+<!-- https://www.youtube.com/watch?v=KORp-Qm_XY4 -->
+
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="ISO 8859-1">
+        <title>Formulario 1</title>
+    </head>
+    <body>
+        <form action="Registro_De_Problema" enctype="multipart/form-data">
+
+            <legend>Formulario de Reporte</legend>
+                <fieldset>
+                    <label for="Nombre">Nombre </label>
+                        <input type="text" id="Nombre" required>
+
+                    <label for="Apellido">Apellido </label>
+                        <input type="text" id="Apellido" required>
+
+                    <br>
+
+                    <label for="Juego">Seleccione su juego </label>
+                        <select name="Juego" id="Seleccion_Juego">Juego
+                            <option value="Seleccion_Juego_1">League of Legends</option>
+                                <option value="Seleccion_Juego_2">Valorant</option>
+                                <option value="Seleccion_Juego_3">League of Runaterra</option>
+                                <option value="Seleccion_Juego_4">Team Fight Tactics</option>
+                            </select>
+
+                    <br>
+        
+                    <label for="Email">E-mail </label>
+                        <input type="email" id="Email" required>
+
+                    <label for="Telefono">Telefono </label>
+                        <input type="tel" placeholder="+** ****-****">
+        
+                    <br>
+
+                    <label for="DNI">DNI </label>
+                        <input type="text" pattern="{8}" id="DNI">
+
+                    <label for="Texto de descripción DNI">La inserción de su DNI facilitará la gestión</label>
+
+                    <br>
+
+                    <label for="Imagen_del_error">Pruebas </label>
+                        <input type="file" name="Imagen_adjunta" accept=".pdf, .jpg, jpeg, png" multiple>
+
+                    <p><label for="Comentario1">AÑADE TU COMENTARIO O REPORTE LO MAS ESPECÍFICO POSIBLE</label></p>
+                        <p><textarea name="Comentario" id="Texto_para_comentario" cols="70" rows="5"></textarea></p>
+            
+                    <br>
+
+                    <input type="submit" name="Subir_formulario">
+                    <input type="reset" name="Resetear_formulario">
+
+                </fieldset>
+        </form> 
+    </body>
+</html>
