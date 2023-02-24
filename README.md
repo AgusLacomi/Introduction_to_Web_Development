@@ -1,4 +1,4 @@
-<h2>Course dictated by the national university of alicante in google learning
+<h2>Course dictated by the National University of Alicante in Google-Learning
 <br>(Professional online courses)</br>
 (1/2)
 </h2>
