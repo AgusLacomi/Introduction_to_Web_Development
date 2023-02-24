@@ -1,4 +1,6 @@
-# Introduction_to_Web_Development_
-Course dictated by the national university of alicante in google learning (Professional online courses) (1/2)
+<h2>Course dictated by the national university of alicante in google learning
+<br>(Professional online courses)</br>
+(1/2)
+</h2>
 
-You can check the authenticity of this course at the following address: https://learndigital.withgoogle.com/activate/validate-certificate-code
+<h4>You can check the authenticity of this course at the following address:<br>https://learndigital.withgoogle.com/activate/validate-certificate-code</br></h4>
