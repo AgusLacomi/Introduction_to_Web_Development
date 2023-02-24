@@ -1,0 +1,65 @@
+- La página que aparece en google, cuando ponemos en el buscado es el "index".html (sin comillas)
+
+- Estructura inicial
+~ <etiqueta atributo="valor"> objeto </etiqueta>
+~ atributo: Son las características del objeto
+~ <head>COSAS QUE NO SE VEN</head>
+~ <body>COSAS QUE SE VEN</body>
+
+- Etiquetas principales
+~ NO SE DEBEN USAR MAS DE 1 <h1>
+
+- Enlaces
+<a href= "../index.html"></a> ir una carpeta para atras
+<a href="carpeta/pagina2.html"></a> ir una carpeta para adelante
+
+- Inputs
+<input type="" name="" id="">
+~ type sirve para saber que tipo de entrada vamos a usar
+~ name sirve para que el server interactúe con la info de ese input
+~ required para lo que es necesario obligatoriamente
+
+- Metadatos
+~ Describir recursos, describir un video
+~ <meta> cambios que se no se van a ver reflejados en la página
+~ Van siempre en el Head
+~ algo indexado (Al buscar algo en google algo que esta indexado es porque está en un índice)
+
+- HTML Semántico
+~ Encabezado (Header) es la presentación de nuestra página (nav y encabezado juntos) logo, navegador, boton de búsqueda, opciones y perfil
+~ Si trabajamos con notas está el artículo (Se puede dividir en secciones)
+~ barra de seccion (aside) barra lateral
+~ pie de página para poner info importante
+~ Article -> section
+
+
+
+- CSS
+- selector {
+	propiedad: valor
+}
+~ selector: que es lo que queremos cambiar (elementos o conjuntos de elementos)
+~ propiedad: cual es la propiedad que le vamos a cambiar
+
+- CSS Selectores
+Universal - * {}
+de tipo - h1, h2, button {}
+clases - .class
+ID - # (elemento único no se pueden repetir)
+por atributo- [] 
+descendiente - (etiqueta de afuera) (etiqueta de adentro 1) (etiqueta de adentro 2)
+pseudoclases - b:hover
+
+- ESPECIFICIDAD
+!important
+estilos en linea
+Identificadores
+clases
+psudoclases
+atributos
+elementos
+pseudo elementos
+~ Lo importante de esto es que cuando 2 elementos de la misma jerarquía estan uno debajo del otro, se hará siempre el ultimo ahí se aplica la cascada
+
+- Metodología BEM
+~ class"bloquecontenedor__nombre"
